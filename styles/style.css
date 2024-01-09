@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+.container{
+    max-width: 1320px;
+    width: 80%;
+    margin: 0px auto;
+}
+.text-area{
+    display: grid;
+    grid-template-columns: 30vw 55vw;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.right-text, .left-text{
+    display: flex;
+    height: 95vh;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid salmon;
+    font-size: 3em;
+    
+}
+@media screen and (max-width:500px) {
+    .body{
+        background-color: red;
+    }
+
+}
