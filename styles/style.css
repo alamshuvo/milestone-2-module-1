@@ -29,5 +29,27 @@
     .body{
         background-color: red;
     }
+    .text-area{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+   
+    .right-text{
+        width: 100vw;
+        height: 30vh;
+        background-color: sandybrown;
+        border-radius: 20px;
+        color: bisque;
+    }
+    .left-text{
+        width: 80vw;
+        height: 100vh;
+        background-color: blueviolet;
+        border-radius: 20px;
+        color: bisque;
+        
+    }
 
 }
